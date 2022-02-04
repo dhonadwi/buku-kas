@@ -1,0 +1,16 @@
+{
+  "name": "Buku Kas",
+  "short_name": "B-K",
+  "start_url": "index.php",
+  "theme_color": "#357db5",
+  "background_color": "#58a4e0",
+  "display": "standalone",
+  "icons": [
+    {
+        "src": "assets/icon.png",
+        "sizes": "16x16",
+        "type": "image/png",
+        "purpose": "any"
+    }
+  ]
+}

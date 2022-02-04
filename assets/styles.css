@@ -1,0 +1,34 @@
+main > .container {
+  padding: 60px 15px 0;
+}
+
+#message {
+  display:none;
+  background: #f1f1f1;
+  color: #000;
+  position: relative;
+  padding:10px 20px;
+  width:30%;
+  margin:auto;
+  margin-top:-20px;
+}
+#message p {
+  padding: 0px 35px;
+  font-size: 18px;
+}
+.valid {
+  color: green;
+}
+.valid:before {
+  position: relative;
+  left: -35px;
+  content: "2713";
+}
+.invalid {
+  color: red;
+}
+.invalid:before {
+  position: relative;
+  left: -35px;
+  content: "0D7";
+}
